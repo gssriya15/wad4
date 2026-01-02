@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background-color: #f2f2f2;
+}
+.top {
+    display: flex;
+    height: 20vh;
+    background-color: #f2f2f2;
+}
+.logo-area {
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading-area {
+    width: 85%;
+    text-align: center;
+}
+h1 {
+    color: rgb(78, 78, 250);   /* BLUE TITLE */
+}
+h2 {
+    color: rgb(99, 99, 162);   /* LIGHT BLUE */
+}
+
+h3 {
+    color: rgb(93, 109, 147);
+}
+.horizontal {
+    background-color: #dbaddb;   /* PURPLE BAR */
+    height: 35px;
+}
+.department-text {
+    color: rgb(142, 62, 62);   /* BROWN LINKS */
+    font-weight: bold;
+    text-align: center;
+}
+.content {
+    display: flex;
+    height: 70vh;
+}
+.vertical {
+    width: 15%;
+    background-color: rgb(223, 159, 159);  /* LIGHT RED PANEL */
+    padding-top: 20px;
+}
+.main-frame {
+    width: 85%;
+    background-color: #c6e6ea;
+    padding: 20px;
+}
+.text {
+    font-size: 15px;
+    color: rgb(246, 100, 74);
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+.section {
+    display: none;
+}
+
+.section:target {
+    display: block;
+}
+
+
+
+
